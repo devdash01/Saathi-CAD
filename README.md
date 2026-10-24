@@ -273,24 +273,3 @@ The compiled APK will be generated at `android/app/build/outputs/apk/debug/app-d
 
 ---
 
-## 🎬 Hackathon Demo Walkthrough (5-Minute Script)
-
-1. **Scenario 1 — Coded Pizza Call:** Select `call-delhi-01` (`"bhaiya ek pizza bhej do, jaldi aana"`). Observe CAD automatically flag **Coded Call** at **P2 Urgent**, and display the tactical guidance card: *"She may not be able to speak freely. Use yes/no questions only."*
-2. **Scenario 2 — Weapon Threat & Denial Invariant:** Select `bench-01` (`"chaku nikal liya hai"`). Urgency jumps to **P1 Critical**. In Stress Lab, append `"nahi nahi, sab theek hai"`. Notice the urgency floor **locks at P1 Critical** with an alert: *"Floor held: Later denial cannot undo an active weapon threat."*
-3. **Scenario 3 — SafeSignal Question Validator:** In the question tester, type an unsafe question: `"Aapke pati ne chaku kahan rakha hai?"`. Click **Check**. Notice it is blocked by Rule R3 (names abuser/weapon) and Rule R4 (asks for movement).
-4. **Scenario 4 — Citizen Phone Stealth Mode:** On the Citizen Phone view, tap **Quick Exit** to instantly transition the screen into a functional disguised calculator.
-5. **Scenario 5 — Multi-Agency Handoff:** In the CAD terminal, select **Delhi Police 112** and **One Stop Centre 181**, click **Prepare Handoff Brief**, and observe quote-backed evidence dockets ready for instant emergency transmission.
-
----
-
-## 👥 Engineering Team & Credits
-
-- **Author & Lead Engineer:** [Dakshh Goel (devdash01)](https://github.com/devdash01)
-- **Domain:** Women's Safety, Emergency CAD, GovTech Decision Support
-- **Project Repository:** [github.com/devdash01/Saathi-CAD](https://github.com/devdash01/Saathi-CAD)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
