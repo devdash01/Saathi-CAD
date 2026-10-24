@@ -168,7 +168,7 @@ export const MOCK_SCENARIOS: CallScenario[] = [
     },
     repeatIncidentSummary: {
       matchCount: 2,
-      lastCallDate: '8 days ago (10 Oct 2026)',
+      lastCallDate: '8 days ago (17 Oct 2026)',
       warningPattern: 'Prior domestic disturbance complaint against same ex-spouse. Cross-referenced via hashed caller identity.'
     }
   },
@@ -505,7 +505,7 @@ export const MOCK_INCIDENT_HISTORY: IncidentRecord[] = [
   {
     id: 'inc-89104',
     caseId: 'DEL-2026-89104',
-    timestamp: '10 Oct 2026, 21:14',
+    timestamp: '17 Oct 2026, 21:14',
     callerPhoneMasked: '+91 98*** **412',
     locationArea: 'Rohini Sector 16, New Delhi',
     urgency: 'SEVERE',
@@ -518,7 +518,7 @@ export const MOCK_INCIDENT_HISTORY: IncidentRecord[] = [
   {
     id: 'inc-88421',
     caseId: 'LKO-2026-88421',
-    timestamp: '17 Oct 2026, 18:32',
+    timestamp: '24 Oct 2026, 18:32',
     callerPhoneMasked: '+91 94*** **820',
     locationArea: 'Alambagh, Lucknow',
     urgency: 'CRITICAL',
@@ -531,7 +531,7 @@ export const MOCK_INCIDENT_HISTORY: IncidentRecord[] = [
   {
     id: 'inc-87211',
     caseId: 'BLR-2026-87211',
-    timestamp: '16 Oct 2026, 23:05',
+    timestamp: '23 Oct 2026, 23:05',
     callerPhoneMasked: '+91 97*** **304',
     locationArea: 'Bellandur Ring Road, Bengaluru',
     urgency: 'CRITICAL',

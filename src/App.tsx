@@ -43,12 +43,12 @@ export function App() {
     dutyStatus: 'on_duty'
   });
 
-  // Active Report State (Case #SA-2024-1187) - Starts Clean Awaiting Citizen Input
+  // Active Report State (Case #SA-2026-1187) - Starts Clean Awaiting Citizen Input
   const [callerAnswers, setCallerAnswers] = useState<Record<string, string>>({});
   const initialBaseTriage = analyzeIncomingTranscript('', 'Paschim Vihar, Delhi');
 
   const [activeReport, setActiveReport] = useState<EmergencyReport>({
-    id: 'SA-2024-1187',
+    id: 'SA-2026-1187',
     idempotencyKey: 'idemp-init-1187',
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
@@ -81,7 +81,7 @@ export function App() {
         timestamp: new Date().toISOString(),
         actor: 'system',
         action: 'STANDBY_SESSION_OPENED',
-        details: 'SAATHI CAD session opened for Case #SA-2024-1187. Awaiting caller transmission.'
+        details: 'SAATHI CAD session opened for Case #SA-2026-1187. Awaiting caller transmission.'
       }
     ],
     retryCount: 0
@@ -882,7 +882,7 @@ export function App() {
 
   // 11. Start New Emergency Session / Reset Chat
   const handleStartNewSession = useCallback((isRemoteSync: boolean = false) => {
-    const newId = `SA-2024-${Date.now().toString().slice(-4)}`;
+    const newId = `SA-${new Date().getFullYear()}-${Date.now().toString().slice(-4)}`;
     const standbyTriage = analyzeIncomingTranscript('', 'Paschim Vihar, Delhi');
     const newReport: EmergencyReport = {
       id: newId,

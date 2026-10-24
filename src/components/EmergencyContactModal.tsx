@@ -124,7 +124,7 @@ export const EmergencyContactModal: React.FC<EmergencyContactModalProps> = ({
   };
 
   const sampleReportForPreview: EmergencyReport = activeReport || {
-    id: 'SA-2024-1187',
+    id: 'SA-2026-1187',
     idempotencyKey: 'idemp-sample',
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),

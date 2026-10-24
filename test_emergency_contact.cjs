@@ -83,7 +83,7 @@ console.log('✓ PASS: Phone number cleaner formats both Indian and internationa
 
 // 2. Alert message formatting with operator details
 const mockReport = {
-  id: 'SA-2024-1187',
+  id: 'SA-2026-1187',
   urgencyLevel: 'CRITICAL',
   callerText: 'Ghar ke bahar do log zabardasti ghusne ki koshish kar rahe hain',
   location: {
@@ -96,7 +96,7 @@ const mockReport = {
 };
 
 const alertMsg = buildEmergencyAlertMessage(mockReport, 'Rahul Sharma');
-assert(alertMsg.includes('SA-2024-1187'), 'Message must contain incident ID');
+assert(alertMsg.includes('SA-2026-1187'), 'Message must contain incident ID');
 assert(alertMsg.includes('CRITICAL'), 'Message must contain urgency level');
 assert(alertMsg.includes('[INCIDENT SUMMARY]'), 'Message must contain [INCIDENT SUMMARY]');
 assert(alertMsg.includes('Distress caller reported:'), 'Message must contain dynamic incident explanation');
