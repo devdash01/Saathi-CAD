@@ -227,8 +227,8 @@ SAATHI is architected in accordance with India's **Digital Personal Data Protect
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/devdash01/Saathi.git
-cd Saathi
+git clone https://github.com/devdash01/Saathi-CAD.git
+cd Saathi-CAD
 npm install
 ```
 
@@ -287,7 +287,7 @@ The compiled APK will be generated at `android/app/build/outputs/apk/debug/app-d
 
 - **Author & Lead Engineer:** [Dakshh Goel (devdash01)](https://github.com/devdash01)
 - **Domain:** Women's Safety, Emergency CAD, GovTech Decision Support
-- **Project Repository:** [github.com/devdash01/Saathi](https://github.com/devdash01/Saathi)
+- **Project Repository:** [github.com/devdash01/Saathi-CAD](https://github.com/devdash01/Saathi-CAD)
 
 ---
 
